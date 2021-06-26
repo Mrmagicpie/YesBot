@@ -145,4 +145,4 @@ Guild: **{ctx.guild.name}**
             
 
 def setup(bot):
-    bot.add_cog(botutils(bot))
+    bot.add_cog(botutils(bot)) # I think that this code is honestly nasty, you shouldve exec'ed the bot.add_cog to make it look like shit. Bad code, pleasae fix
